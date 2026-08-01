@@ -856,7 +856,7 @@ def train_model():
 
         models = {
 
-            "Logistic Regression": LogisticRegression(max_iter=1000),
+            "Logistic Regression": LogisticRegression(max_iter=200),
 
             "Decision Tree": DecisionTreeClassifier(
                 random_state=42
