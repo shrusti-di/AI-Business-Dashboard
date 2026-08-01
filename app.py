@@ -740,11 +740,13 @@ def train_model():
             ),
 
             "Random Forest": RandomForestRegressor(
-                n_estimators=100,
-                random_state=42
+                n_estimators=20,
+                random_state=42,
+                n_jobs=-1
             ),
 
             "Gradient Boosting": GradientBoostingRegressor(
+                n_estimators=50,
                 random_state=42
             )
 
@@ -861,8 +863,9 @@ def train_model():
             ),
 
             "Random Forest": RandomForestClassifier(
-                n_estimators=100,
-                random_state=42
+                n_estimators=20,
+                random_state=42,
+                n_jobs=-1
             ),
 
             "KNN": KNeighborsClassifier()
