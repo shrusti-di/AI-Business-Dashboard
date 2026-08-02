@@ -268,6 +268,10 @@ Live Application:
 
 https://web-production-1aa4b.up.railway.app/
 
+<img width="1919" height="700" alt="AI BI" src="https://github.com/user-attachments/assets/14aad104-5c31-4316-8893-525e47215201" />
+
+
+
 ---
 
 # 📷 Application Modules
